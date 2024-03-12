@@ -1,1 +1,17 @@
-/* write your override styles here */
+body {
+    margin: 0;
+    background: black url(../images/sketch.jpg) no-repeat center;
+    background-size: cover;
+    display: block;
+}
+html {
+    font-family: sans-serif;
+}
+.tag-1 {
+    background: url(../images/tag-1.png) no-repeat;
+    z-index: 7;
+    display: none;
+  }
+  #wall .tag-1 {
+    display: none;
+  }
